@@ -98,7 +98,7 @@ void main(int arg, char *argv[]){
 }
 ~~~
 
-간략하게 **SUB-COMMANDS**를 설명하자면,
+* 간략하게 **SUB-COMMANDS**를 설명하자면,
 
 ~~~
 * record : data file 혹은 directory 내에 trace data를 저장한다.
@@ -120,7 +120,7 @@ void main(int arg, char *argv[]){
 * script : run a script
 ~~~
 
-SUB-COMMANDS 뒤에 다음과 같은 **OPTIONS**도 줄 수 있다.
+* SUB-COMMANDS 뒤에 다음과 같은 **OPTIONS**도 줄 수 있다.
 
 ~~~
 * -?, --help : 도움말 출력
