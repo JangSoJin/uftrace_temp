@@ -100,27 +100,26 @@ void main(int arg, char *argv[]){
 
 간략하게 **SUB-COMMANDS**를 설명하자면,
 
-~~~
-* **record** : data file 혹은 directory 내에 trace data를 저장한다.
-* **replay** : record 된 후의 trace data를 time duration과 함께 출력한다.
-* **live** : live tracing 한다. 
-* **report** : record 된 data를 Total time, Self time, Call된 횟수, Function 과 같은 통계적, 요약적 정보를 통해 나타낸다.
-* **info** : system 정보와 process 정보로 나누어 출력하여준다. ( system의 경우 cpu 정보나 프로그램 버전, process의 경우 cpu time, context switch와 같은 정보 출력)
-* **dump** : raw tracing data 출력
-* **recv** : network로부터 data를 받아서 저장
-* **graph** : function call graph 를 출력
-* **script** : run a script
-~~~
+**`record`** : data file 혹은 directory 내에 trace data를 저장한다.
+**`replay`** : record 된 후의 trace data를 time duration과 함께 출력한다.
+**`live`** : live tracing 한다. 
+**`report`** : record 된 data를 Total time, Self time, Call된 횟수, Function 과 같은 통계적, 요약적 정보를 통해 나타낸다.
+**`info`** : system 정보와 process 정보로 나누어 출력하여준다. ( system의 경우 cpu 정보나 프로그램 버전, process의 경우 cpu time, context switch와 같은 정보 출력)
+**`dump`** : raw tracing data 출력
+**`recv`** : network로부터 data를 받아서 저장
+**`graph`** : function call graph 를 출력
+**`script`** : run a script
+
 
 SUB-COMMANDS 뒤에 다음과 같은 **OPTIONS**도 줄 수 있다.
-~~~
-* **-?, --help** : 도움말 출력
-* **--usage** : 사용법 출력
-* **-V, --version** : program version 출력
-* **-v, --verbose** : verbose messages 형태 출력
-* **--debug** : debug message 출력 (debug-domain=DOMAIN 과 같이 도메인(uftrace,symbol,demangle,filter,fstack, session, kernel, mcount, dynamic, event)을 설정하여서도 사용 가능)
-* **--no-pager** : pager 사용 안함
-* **--color=yes/no/auto** 중 하나 : color enable, disable 설정
-~~~
+
+**`-?, --help`** : 도움말 출력
+**`--usage`** : 사용법 출력
+**`-V, --version`** : program version 출력
+**`-v, --verbose`** : verbose messages 형태 출력
+**`--debug`** : debug message 출력 (debug-domain=DOMAIN 과 같이 도메인(uftrace,symbol,demangle,filter,fstack, session, kernel, mcount, dynamic, event)을 설정하여서도 사용 가능)
+**`--no-pager`** : pager 사용 안함
+**`--color=yes/no/auto`** 중 하나 : color enable, disable 설정
+
 
 
