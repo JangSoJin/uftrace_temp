@@ -101,7 +101,6 @@ void main(int arg, char *argv[]){
 간략하게 **SUB-COMMANDS**를 설명하자면,
 
 ~~~
-
 * record : data file 혹은 directory 내에 trace data를 저장한다.
 
 * replay : record 된 후의 trace data를 time duration과 함께 출력한다.
@@ -119,13 +118,11 @@ void main(int arg, char *argv[]){
 * graph : function call graph 를 출력
 
 * script : run a script
-
 ~~~
 
 SUB-COMMANDS 뒤에 다음과 같은 **OPTIONS**도 줄 수 있다.
 
 ~~~
-
 * -?, --help : 도움말 출력
 
 * --usage : 사용법 출력
@@ -139,5 +136,4 @@ SUB-COMMANDS 뒤에 다음과 같은 **OPTIONS**도 줄 수 있다.
 * --no-pager : pager 사용 안함
 
 * --color=yes/no/auto 중 하나 : color enable, disable 설정
-
 ~~~
