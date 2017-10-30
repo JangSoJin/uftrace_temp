@@ -117,7 +117,7 @@ void main(int arg, char *argv[]){
 
 * graph : function call graph 를 출력
 
-* script : run a script
+* script : run a script (script만 실행가능!)
 ~~~
 
 SUB-COMMANDS 뒤에 다음과 같은 **OPTIONS**도 줄 수 있다.
